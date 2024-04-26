@@ -1,9 +1,17 @@
 ﻿//напишите метод FindMax, который принимает на вход три числа
 //и выдаёт максимальное из этих чисел.
 
-int a = 44;
-int b = 78;
-int c = 16;
+
+Console.Write("Введите первое число ");
+int a = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Введите второе число ");
+int b = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Введите первое число ");
+int c = Convert.ToInt32(Console.ReadLine());
+
+
 
 
 int max = a;
@@ -17,3 +25,5 @@ if (c > max)
     max = c;
 }
 Console.WriteLine(max);
+
+
